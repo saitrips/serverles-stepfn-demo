@@ -1,0 +1,12 @@
+Resources:
+  StepBucketlogs:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: serverless-logs-bucket
+      # Set the CORS policy
+
+# Print out the name of the bucket that is created
+Outputs:
+  StepBucketlogsName:
+    Value:
+      Ref: StepBucketlogs

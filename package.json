@@ -1,0 +1,11 @@
+{
+  "name": "aws-serverless-stepfn",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-deployment-bucket": "^1.1.2",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "serverless-step-functions": "^2.26.0"
+  }
+}
